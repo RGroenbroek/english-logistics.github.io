@@ -1,0 +1,276 @@
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="{{ site.url }}/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+					<h4>{{ site.owner.name }}</h4>
+					<p>{{ site.owner.bio }}</p>
+				</li>
+				<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				{% if site.owner.email %}<li>
+					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>{% endif %}
+				{% if site.owner.twitter %}<li>
+					<a href="http://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>{% endif %}
+				{% if site.owner.facebook %}<li>
+					<a href="http://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+				</li>{% endif %}
+				{% if site.owner.google_plus %}<li>
+					<a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
+				</li>{% endif %}
+				{% if site.owner.linkedin %}<li>
+					<a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+				</li>{% endif %}
+				{% if site.owner.github %}<li>
+					<a href="http://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>{% endif %}
+				{% if site.owner.stackexchange %}<li>
+					<a href="{{ site.owner.stackexchange }}"><i class="fa fa-fw fa-stack-exchange"></i> Stackexchange</a>
+				</li>{% endif %}
+				{% if site.owner.instagram %}<li>
+					<a href="http://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+				</li>{% endif %}
+				{% if site.owner.flickr %}<li>
+					<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}"><i class="fa fa-fw fa-flickr"></i> Flickr</a>
+				</li>{% endif %}
+				{% if site.owner.tumblr %}<li>
+					<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
+				</li>{% endif %}
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+
+			<a href="#">Grammar</a>
+			<ul class="dl-submenu">
+				<!-- <li><a href="{{ site.url }}/grammar/explanations/">Explanations</a></li> -->
+				<li><a href="{{ site.url }}/grammar/videos/">Explanational videos</a></li>
+				<li><a href="{{ site.url }}/grammar/exercises/">Individual exercises</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Logistiek Medewerker</a>
+			<ul class="dl-submenu">
+				<li><a href="#">The Work Placement</a>
+				<ul class="dl-submenu">
+					<li><a href="{{ site.url }}/lm/twp/introduction/">Introduction</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-one/">Lesson one</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-two/">Lesson two</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-three/">Lesson three</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-four/">Lesson four</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-five/">Lesson five</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-six/">Lesson six</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-seven/">Lesson seven</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-eight/">Lesson eight</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-nine/">Lesson nine</a></li>
+					<li><a href="{{ site.url }}/lm/twp/lesson-ten/">Lesson ten</a></li>
+					<li><a href="{{ site.url }}/lm/twp/survey/">Survey</a></li>
+				</ul>
+				</li>	
+				<li><a href="#">Receiving and Stocking Goods</a>
+				<ul class="dl-submenu">
+					<li><a href="{{ site.url }}/lm/rsg/introduction/">Introduction</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/assignment/">Assignment</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-one/">Lesson one</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-two/">Lesson two</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-three/">Lesson three</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-four/">Lesson four</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-five/">Lesson five</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-six/">Lesson six</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-seven/">Lesson seven</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-eight/">Lesson eight</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-nine/">Lesson nine</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/lesson-ten/">Lesson ten</a></li>
+					<li><a href="{{ site.url }}/lm/rsg/survey/">Survey</a></li>
+				</ul>
+				</li>	
+			</ul>
+		</li>
+		
+		<li>
+			<a href="#">Project opdracht taal</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/groepsopdracht/introduction/">Introduction</a></li>
+				<li><a href="{{ site.url }}/groepsopdracht/assignment/">Assignment</a></li>
+				<li><a href="{{ site.url }}/groepsopdracht/lesson-one/">Step one</a></li>
+				<li><a href="{{ site.url }}/groepsopdracht/lesson-two/">Step two</a></li>
+				<li><a href="{{ site.url }}/groepsopdracht/lesson-three/">Step three</a></li>
+				<li><a href="{{ site.url }}/groepsopdracht/conclusion/">Conclusion</a></li>
+			</ul>
+		</li>
+		
+	<!--	<li>
+            <a href="#">Retail</a>
+            <ul class="dl-submenu">
+                <li><a href="#">Project</a>
+                    <ul class="dl-submenu">
+						<li><a href="{{ site.url }}/retail/project/introduction/">Introduction</a></li>
+						<li><a href="{{ site.url }}/retail/project/task/">Task</a></li>
+					    <li><a href="{{ site.url }}/retail/project/process/">Process</a></li>
+					    	<li><a href="#">Weekly assignments</a>
+					    		<ul class="dl-submenu">
+					    			<li><a href="{{ site.url }}/retail/project/week-1/">Week one</a></li>
+					   				<li><a href="{{ site.url }}/retail/project/week-2/">Week two</a></li>
+								    <li><a href="{{ site.url }}/retail/project/week-3/">Week three</a></li>	
+								    <li><a href="{{ site.url }}/retail/project/week-4/">Week four</a></li>
+					    			<li><a href="{{ site.url }}/retail/project/week-5/">Week five</a></li>
+					   				<li><a href="{{ site.url }}/retail/project/week-6/">Week six</a></li>
+					    			<li><a href="{{ site.url }}/retail/project/week-7/">Week seven</a></li>
+					    			<li><a href="{{ site.url }}/retail/project/week-8/">Week eight</a></li>
+					    		</ul>		    
+					    	</li>
+						<li><a href="{{ site.url }}/retail/project/evaluation/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/retail/project/conclusion/">Conclusion</a></li>
+						<li><a href="{{ site.url }}/retail/project/teacher-page/">Teacher page</a></li>
+					</ul>
+				</li> 
+               <li><a href="#">Webquest Reading</a>
+                	<ul class="dl-submenu">
+						<li><a href="{{ site.url }}/retail/reading/introduction/">Introduction</a></li>
+						<li><a href="{{ site.url }}/retail/reading/task/">Task</a></li>
+				    	<li><a href="{{ site.url }}/retail/reading/process/">Process</a></li>
+						<li><a href="{{ site.url }}/retail/reading/evaluation/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/retail/reading/conclusion/">Conclusion</a></li>
+						<li><a href="{{ site.url }}/retail/reading/teacher-page/">Teacher page</a></li>        
+					</ul>   
+				</li>    
+                <li><a href="#">Webquest Writing</a>
+                	<ul class="dl-submenu">
+						<li><a href="{{ site.url }}/retail/writing/introduction/">Introduction</a></li>
+						<li><a href="{{ site.url }}/retail/writing/task/">Task</a></li>
+					    <li><a href="{{ site.url }}/retail/writing/process/">Process</a></li>
+						<li><a href="{{ site.url }}/retail/writing/evaluation/">Exercise</a></li>
+						<li><a href="{{ site.url }}/retail/writing/conclusion/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/retail/writing/teacher-page/">Teacher page</a></li>  
+					</ul>
+				</li>
+			</ul>	
+		</li> !-->
+		<li>
+			<a href="#">Leisure & Hospitality</a>
+            <ul class="dl-submenu">
+                <li><a href="#">Project</a>
+                    <ul class="dl-submenu">
+						<li><a href="{{ site.url }}/leisure-hospitality/project/introduction/">Introduction</a></li>
+						<li><a href="{{ site.url }}/leisure-hospitality/project/task/">Task</a></li>
+					    	<li><a href="#">Weekly assignments</a>
+					    		<ul class="dl-submenu">
+					    			<li><a href="{{ site.url }}/leisure-hospitality/project/week-1/">Week one</a></li>
+				                    <li><a href="{{ site.url }}/leisure-hospitality/project/week-2/">Week two</a></li>
+								    <li><a href="{{ site.url }}/leisure-hospitality/project/week-3/">Week three</a></li>	
+									<li><a href="{{ site.url }}/leisure-hospitality/project/week-4/">Week four</a></li>
+					    			<li><a href="{{ site.url }}/leisure-hospitality/project/week-5/">Week five</a></li> 
+					   				<li><a href="{{ site.url }}/leisure-hospitality/project/week-6/">Week six</a></li>
+					    			<li><a href="{{ site.url }}/leisure-hospitality/project/week-7/">Reflection</a></li>
+					    								    		</ul>		    
+					    	</li>
+						<li><a href="{{ site.url }}/leisure-hospitality/project/week-8/">Report</a></li>
+						<!-- <li><a href="{{ site.url }}/leisure-hospitality/project/conclusion/">Conclusion</a></li> !-->
+						<li><a href="{{ site.url }}/leisure-hospitality/project/teacher-page/">Teacher page</a></li>
+					</ul>
+				</li> 
+               <!-- <li><a href="#">Webquest 1</a>
+            		<ul class="dl-submenu">
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-1/introduction-1/">Introduction</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-1/task-1/">Task</a></li>
+					    <li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-1/process-1/">Process</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-1/evaluation-1/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-1/conclusion-1/">Conclusion</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-1/teacher-page-1/">Teacher page</a></li>        
+					</ul> 
+				</li>       
+                <li><a href="#">Webquest 2</a>
+            	    <ul class="dl-submenu">
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-2/introduction-2/">Introduction</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-2/task-2/">Task</a></li>
+					    <li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-2/process-2/">Process</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-2/evaluation-2/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-2/conclusion-2/">Conclusion</a></li>
+						<li><a href="{{ site.url }}/webquest/leisure-hospitality/webquest-2/teacher-page-2/">Teacher page</a></li>  
+					</ul>
+				</li> !-->
+			</ul>	
+		</li>
+		 <li>
+			<a href="#">Administrative assistant</a>
+			<ul class="dl-submenu">
+			    <li><a href="#">Project</a>
+              	  	<ul class="dl-submenu">
+						<li><a href="{{ site.url }}/business-administration/project/introduction/">Introduction</a></li>
+						<li><a href="{{ site.url }}/business-administration/project/task/">Task</a></li>
+					    	<li><a href="#">Weekly assignments</a>
+					    		<ul class="dl-submenu">
+					    			<li><a href="{{ site.url }}/business-administration/project/week-1/">Week one</a></li>
+					   				<li><a href="{{ site.url }}/business-administration/project/week-2/">Week two</a></li>
+								    <li><a href="{{ site.url }}/business-administration/project/week-3/">Week three</a></li>	
+									<li><a href="{{ site.url }}/business-administration/project/week-4/">Week four</a></li>
+					    			<li><a href="{{ site.url }}/business-administration/project/week-5/">Week five</a></li>
+					   				<li><a href="{{ site.url }}/business-administration/project/week-6/">Reflection</a></li>
+					    		</ul>		    
+					    	</li>
+						<li><a href="{{ site.url }}/business-administration/project/week-7/">Report</a></li>
+						<!-- <li><a href="{{ site.url }}/business-administration/project/evaluation/">Evaluation</a></li> !-->
+						<li><a href="{{ site.url }}/business-administration/project/teacher-page/">Teacher page</a></li>
+					</ul>	
+            <!--    <li><a href="#">Webquest 1</a>
+           		    <ul class="dl-submenu">
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-1/introduction-1/">Introduction</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-1/task-1/">Task</a></li>
+					    <li><a href="{{ site.url }}/webquest/business-administration/webquest-1/process-1/">Process</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-1/evaluation-1/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-1/conclusion-1/">Conclusion</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-1/teacher-page-1/">Teacher page</a></li>        
+					</ul>        
+                <li><a href="#">Webquest 2</a>
+        	        <ul class="dl-submenu">
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-2/introduction-2/">Introduction</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-2/task-2/">Task</a></li>
+					    <li><a href="{{ site.url }}/webquest/business-administration/webquest-2/process-2/">Process</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-2/evaluation-2/">Evaluation</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-2/conclusion-2/">Conclusion</a></li>
+						<li><a href="{{ site.url }}/webquest/business-administration/webquest-2/teacher-page-2/">Teacher page</a></li> 
+					</ul>
+				</li> !-->
+			</ul>	
+		</li>
+	<!--	<li>
+			<a href="#">iMinor Frank</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url}}/iminor-frank/introduction/">Introduction</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie1/">Competentie 1</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie2/">Competentie 2</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie3/">Competentie 3</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie4/">Competentie 4</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie5/">Competentie 5</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie6/">Competentie 6</a></li>
+				<li><a href="{{ site.url}}/iminor-frank/competentie7/">Competentie 7</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">iMinor Rick</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url}}/iminor-rick/introduction/">Introduction</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie1/">Competentie 1</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie2/">Competentie 2</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie3/">Competentie 3</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie4/">Competentie 4</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie5/">Competentie 5</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie6/">Competentie 6</a></li>
+				<li><a href="{{ site.url}}/iminor-rick/competentie7/">Competentie 7</a></li>
+			</ul>
+		</li> -->!
+
+		{% for link in site.data.navigation %}
+	    {% if link.url contains 'http' %}
+	        {% assign domain = '' %}
+	        {% else %}
+	        {% assign domain = site.url %}
+	    {% endif %}
+	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+	  {% endfor %}
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
